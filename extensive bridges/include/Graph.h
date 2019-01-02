@@ -15,11 +15,12 @@ private:
     class Node
     {
     public:
-        Node() : visited(false) {}
+        Node() : visited(false), processed(false) {}
 
         std::list<Node*> adjacent_nodes;
 
         bool visited;
+        bool processed;
 
         u_int value;
     };
