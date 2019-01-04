@@ -5,5 +5,5 @@ do
    echo "graf$i.txt : "
    cat examples/graf$i.txt
    echo "graph <graf$i.txt : "
-   ./graph <examples/graf$i.txt
+   bin/graph <examples/graf$i.txt
 done
