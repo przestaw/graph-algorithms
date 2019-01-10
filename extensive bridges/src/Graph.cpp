@@ -23,11 +23,14 @@ namespace ps_graph
     void Graph::add_edge(u_int node1, u_int node2)
     {
       if(node1 >= size || node2 >= size)
-      {
+      {// if one of vertices is not in graph then it's not a valid edge
         throw std::out_of_range("Not an edge in this graph");
       }
-      nodes[node1].adjacent_nodes.push_back(&nodes[node2]);
-      nodes[node2].adjacent_nodes.push_back(&nodes[node1]);
+      else
+      {
+        nodes[node1].adjacent_nodes.push_back(&nodes[node2]);
+        nodes[node2].adjacent_nodes.push_back(&nodes[node1]);
+      }
     }
 
     Graph::Node *Graph::get_node(u_int n) {
@@ -36,7 +39,7 @@ namespace ps_graph
         return &nodes[n];
       }
       else
-      {
+      { //if its not in graph it's not a node
         throw std::out_of_range("Not a node");
       }
     }
@@ -48,8 +51,8 @@ namespace ps_graph
 
     u_int Graph::check_count(Node * start)
     {
-      u_int ret = 0;
-      visit(start);
+      u_int ret = 0; //counter
+      visit(start); //first visit all nodes using  recursive DFS
       for(auto &it : nodes)
       { //check how many nodes as been visited
         if(it.visited)

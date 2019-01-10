@@ -5,7 +5,6 @@
 #ifndef EXTENSIVE_BRIDGES_GRAPH_H
 #define EXTENSIVE_BRIDGES_GRAPH_H
 
-#include <zconf.h>
 #include <list>
 #include <vector>
 namespace ps_graph

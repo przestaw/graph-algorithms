@@ -38,8 +38,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="graph">
-				<Option output="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges/graph" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges"/>
+				<Option output="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges/bin/graph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,8 +52,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="graph/fast">
-				<Option output="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges/graph" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges"/>
+				<Option output="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges/bin/graph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
