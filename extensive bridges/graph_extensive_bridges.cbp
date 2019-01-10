@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="graph_extensive_bridges"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graph">
+				<Option output="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges/graph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 graph"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graph/fast">
+				<Option output="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges/graph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 graph/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/przemek/AISDI-graph/graph-algorithms/extensive\ bridges/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges/include/Graph.h">
+			<Option target="graph"/>
+		</Unit>
+		<Unit filename="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges/src/Graph.cpp">
+			<Option target="graph"/>
+		</Unit>
+		<Unit filename="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges/src/main.cpp">
+			<Option target="graph"/>
+		</Unit>
+		<Unit filename="/home/przemek/AISDI-graph/graph-algorithms/extensive bridges/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
