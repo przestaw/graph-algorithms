@@ -12,17 +12,20 @@ namespace ps_graph
     Graph::Graph(u_int count)
     {
       nodes.resize(count);
+	  std::iota(nodes.begin(), nodes.end(), 0);
+/*
       u_int i = 0;
       for(auto &it : nodes)
       {
         it.value = i++;
       }
+*/
       size = count;
     }
 
     void Graph::add_edge(u_int node1, u_int node2)
     {
-      if(node1 >= size || node2 >= size)
+      if(node1 >= size || node2 >= size || node1 == node2)
       {// if one of vertices is not in graph then it's not a valid edge
         throw std::out_of_range("Not an edge in this graph");
       }
@@ -33,7 +36,7 @@ namespace ps_graph
       }
     }
 
-    Graph::Node *Graph::get_node(u_int n) {
+    const Graph::Node *Graph::get_node(u_int n) {
       if(n < size)
       {
         return &nodes[n];
@@ -97,13 +100,13 @@ namespace ps_graph
       {//if size is less than two there is no bridge
         for(auto &it : nodes)
         {//for each node we check edges with smaller end value than this node - to avoid duplicate checking
-          check_node(&bridges, &it);
+          check_node(bridges, &it);
         }
       }
       return bridges;
     }
 
-    void Graph::check_node(std::list<std::pair<u_int, u_int>> *bridges, Node *node)
+    void Graph::check_node(std::list<std::pair<u_int, u_int>> &bridges, Node *node)
     {
       //'remove' edge
       node->processed = true;

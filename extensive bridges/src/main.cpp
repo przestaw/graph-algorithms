@@ -3,6 +3,7 @@
 
 int main()
 {
+//program is optimalised for working with file input
   u_int size;
   std::cin >> size;
   ps_graph::Graph my_graph(size);
